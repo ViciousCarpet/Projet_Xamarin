@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projet_Xamarin.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Nom d'utilisateur:" />
+        <Entry x:Name="NomDutilisateur" Text="" Keyboard="Text" Placeholder="Nom d'utilisateur" />
+        <Label Text="Mot de passe:" />
+        <Entry x:Name="mdp" Text="" IsPassword="True" Placeholder="Password" />
+        <Button x:Name="Connexion" Text="Connexion" Clicked="OnButtonConnexionClicked"/>
+    </StackLayout>
+
+</ContentPage>
